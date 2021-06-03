@@ -15,8 +15,22 @@ function helloWorld (){
 //    return "";
 //}
 function sayHello(name) {
-    if (typeof(name) != "string") {
-       return "Hello, World!";
+    if (typeof (name) != "string") {
+        return "Hello, World!";
     }
     return "Hello," + name + "!";
+}
+function isFive(input) {
+    if (input === "5") {
+        return "true"
+    }
+}
+function isEven(input){
+    return input % 2 ===0;
+}
+function isVowel (input){
+    return input % 2 ===0;
+}
+function add (input){
+    return input++;
 }
